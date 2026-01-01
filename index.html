@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tentang Saya | Pemula Programmer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color:#fff;
+}
+
+/* HEADER */
+header{
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:18px;
+    opacity:0.9;
+}
+
+.highlight{
+    color:#00ffd5;
+}
+
+/* SECTION */
+section{
+    background:#fff;
+    color:#333;
+    padding:60px 20px;
+    border-radius:40px 40px 0 0;
+}
+
+/* CARD CONTAINER */
+.cards{
+    max-width:1000px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+    gap:25px;
+}
+
+/* CARD */
+.card{
+    background:#f4f4f4;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-12px);
+}
+
+.card h2{
+    color:#2c5364;
+    margin-bottom:15px;
+}
+
+.card ul{
+    padding-left:18px;
+}
+
+.card ul li{
+    margin-bottom:10px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:25px;
+    background:#0f2027;
+    font-size:14px;
+}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 35px;
+    background:#00ffd5;
+    color:#000;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#00c9aa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>HALOO 👋<br>Saya <span class="highlight">Pemula Programmer</span></h1>
+    <p>Sedang belajar dan mengembangkan kemampuan di dunia coding</p>
+    <a href="#belajar" class="btn">Apa yang Saya Pelajari</a>
+</header>
+
+<section id="belajar">
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>🐍 PYTHON</h2>
+            <ul>
+                <li>Membuat game sederhana</li>
+                <li>Membuat kalkulator sederhana</li>
+                <li>Animasi teks & lirik lagu</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🌐 HTML</h2>
+            <ul>
+                <li>Membuat website dari nol</li>
+                <li>Belajar struktur website</li>
+                <li>Mengembangkan tampilan web</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>⚡ JAVASCRIPT</h2>
+            <ul>
+                <li>Meningkatkan logika pemrograman</li>
+                <li>Membuat game yang lebih interaktif</li>
+                <li>Mengembangkan website & AI sederhana</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 | Website Pemula Programmer 💻
+</footer>
+
+<script>
+    console.log("Website Tentang Saya siap digunakan!");
+</script>
+
+</body>
+</html>
